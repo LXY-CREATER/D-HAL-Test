@@ -1,0 +1,9 @@
+*** Using Compiler 'V6.23', folder: 'D:\Users\19032\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'B570'
+linking...
+..\Output\B570.axf: Error: L6220E: Load region LR_IROM1 size (65728 bytes) exceeds limit (65536 bytes). Region contains 254 bytes of padding and 0 bytes of veneers (total 254 bytes of linker generated content).
+..\Output\B570.axf: Error: L6220E: Execution region ER_IROM1 size (65592 bytes) exceeds limit (65536 bytes). Region contains 222 bytes of padding and 0 bytes of veneers (total 222 bytes of linker generated content).
+Finished: 0 information, 0 warning and 2 error messages.
+"..\Output\B570.axf" - 2 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:04

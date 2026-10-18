@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"mit\startup_stm32f103xe.o"
+"mit\main.o"
+"mit\gpio.o"
+"mit\can.o"
+"mit\stm32f1xx_it.o"
+"mit\stm32f1xx_hal_msp.o"
+"mit\stm32f1xx_hal_gpio_ex.o"
+"mit\stm32f1xx_hal_can.o"
+"mit\stm32f1xx_hal.o"
+"mit\stm32f1xx_hal_rcc.o"
+"mit\stm32f1xx_hal_rcc_ex.o"
+"mit\stm32f1xx_hal_gpio.o"
+"mit\stm32f1xx_hal_dma.o"
+"mit\stm32f1xx_hal_cortex.o"
+"mit\stm32f1xx_hal_pwr.o"
+"mit\stm32f1xx_hal_flash.o"
+"mit\stm32f1xx_hal_flash_ex.o"
+"mit\stm32f1xx_hal_exti.o"
+"mit\stm32f1xx_hal_tim.o"
+"mit\stm32f1xx_hal_tim_ex.o"
+"mit\system_stm32f1xx.o"
+--strict --scatter "MIT\MIT.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "MIT.map" -o MIT\MIT.axf

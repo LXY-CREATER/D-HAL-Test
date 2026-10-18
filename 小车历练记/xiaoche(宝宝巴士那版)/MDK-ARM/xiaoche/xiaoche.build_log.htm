@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: luoxinyan A, S, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.14.0.0
+Toolchain Path:  D:\keil-5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      CMSIS_AGDI.dll V1.21.0.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\xiaoche\MDK-ARM\xiaoche.uvprojx
+Project File Date:  07/30/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 1 (build 106)', folder: 'D:\keil-5\ARM\ARMCC\Bin'
+Build target 'xiaoche'
+Note: source file '../Core/Src/system_stm32f1xx.c' - object file renamed from 'xiaoche\system_stm32f1xx.o' to 'xiaoche\system_stm32f1xx_1.o'.
+assembling startup_stm32f103xe.s...
+compiling gpio.c...
+compiling main.c...
+..\Core\Src\main.c(115): warning:  #223-D: function "Servo_SetAngle" declared implicitly
+   Servo_SetAngle(&htim4, TIM_CHANNEL_3, 0);
+..\Core\Src\main.c(116): warning:  #223-D: function "Servo_Test" declared implicitly
+   Servo_Test(); 
+..\Core\Src\main.c(122): warning:  #223-D: function "Move_Front" declared implicitly
+  		Move_Front();
+..\Core\Src\main.c(128): warning:  #223-D: function "strlen" declared implicitly
+    HAL_UART_Transmit(&huart1, (uint8_t*)init_msg, strlen(init_msg), 100);
+..\Core\Src\main.c(140): warning:  #223-D: function "sprintf" declared implicitly
+      sprintf(message, "Distance: %.2f cm\r\n", dist);
+..\Core\Src\main.c(151): warning:  #223-D: function "Move_RightFront" declared implicitly
+          Move_RightFront(200); // ”“«∞±‹’œ
+..\Core\Src\main.c(153): warning:  #223-D: function "Move_Stop" declared implicitly
+  			  Move_Stop();
+..\Core\Src\main.c: 7 warnings, 0 errors
+linking...
+Program Size: Code=21042 RO-data=554 RW-data=108 ZI-data=1996  
+FromELF: creating hex file...
+"xiaoche\xiaoche.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM.CMSIS.4.2.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_xiaoche
+  D:/keil-5/ARM/Pack/ARM/CMSIS/4.2.0/CMSIS/Include
+  D:/keil-5/ARM/Pack/Keil/STM32F1xx_DFP/2.2.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS/UserCodeTemplates/ARM/ITM_Retarget.c
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
