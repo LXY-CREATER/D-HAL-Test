@@ -1,0 +1,33 @@
+SET PATH=D:\keil-5\ARM\ARMCC\Bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-1.8\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\19032\AppData\Local\Microsoft\WindowsApps;;C:\Users\19032\Desktop\PyCharm Community Edition 2024.3.4\bin;
+SET CPU_TYPE=STM32F103ZE
+SET CPU_VENDOR=STMicroelectronics
+SET UV2_TARGET=TIM_InputCapture
+SET CPU_CLOCK=0x007A1200
+"D:\keil-5\ARM\ARMCC\Bin\ArmAsm" --Via "tim_inputcapture\startup_stm32f103xe._ia"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\motor.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\inputcapture.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\sero.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\main.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\gpio.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\dma.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\tim.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\usart.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\stm32f1xx_it.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\stm32f1xx_hal_msp.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\stm32f1xx_hal_gpio_ex.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\stm32f1xx_hal_tim.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\stm32f1xx_hal_tim_ex.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\stm32f1xx_hal.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\stm32f1xx_hal_rcc.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\stm32f1xx_hal_rcc_ex.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\stm32f1xx_hal_gpio.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\stm32f1xx_hal_dma.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\stm32f1xx_hal_cortex.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\stm32f1xx_hal_pwr.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\stm32f1xx_hal_flash.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\stm32f1xx_hal_flash_ex.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\stm32f1xx_hal_exti.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\stm32f1xx_hal_uart.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmCC" --Via "tim_inputcapture\system_stm32f1xx.__i"
+"D:\keil-5\ARM\ARMCC\Bin\ArmLink" --Via "TIM_InputCapture\TIM_InputCapture.lnp"
+"D:\keil-5\ARM\ARMCC\Bin\fromelf.exe" "TIM_InputCapture\TIM_InputCapture.axf" --i32combined --output "TIM_InputCapture\TIM_InputCapture.hex"

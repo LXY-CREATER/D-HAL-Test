@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"adcled\startup_stm32f103xe.o"
+"adcled\main.o"
+"adcled\gpio.o"
+"adcled\tim.o"
+"adcled\stm32f1xx_it.o"
+"adcled\stm32f1xx_hal_msp.o"
+"adcled\stm32f1xx_hal_gpio_ex.o"
+"adcled\stm32f1xx_hal_tim.o"
+"adcled\stm32f1xx_hal_tim_ex.o"
+"adcled\stm32f1xx_hal.o"
+"adcled\stm32f1xx_hal_rcc.o"
+"adcled\stm32f1xx_hal_rcc_ex.o"
+"adcled\stm32f1xx_hal_gpio.o"
+"adcled\stm32f1xx_hal_dma.o"
+"adcled\stm32f1xx_hal_cortex.o"
+"adcled\stm32f1xx_hal_pwr.o"
+"adcled\stm32f1xx_hal_flash.o"
+"adcled\stm32f1xx_hal_flash_ex.o"
+"adcled\stm32f1xx_hal_exti.o"
+"adcled\system_stm32f1xx.o"
+--strict --scatter "ADCLED\ADCLED.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ADCLED.map" -o ADCLED\ADCLED.axf

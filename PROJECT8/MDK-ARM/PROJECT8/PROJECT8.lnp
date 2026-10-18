@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"project8\startup_stm32f103xe.o"
+"project8\main.o"
+"project8\stm32f1xx_it.o"
+"project8\stm32f1xx_hal_msp.o"
+"project8\stm32f1xx_hal_gpio_ex.o"
+"project8\stm32f1xx_hal_adc.o"
+"project8\stm32f1xx_hal_adc_ex.o"
+"project8\stm32f1xx_hal.o"
+"project8\stm32f1xx_hal_rcc.o"
+"project8\stm32f1xx_hal_rcc_ex.o"
+"project8\stm32f1xx_hal_gpio.o"
+"project8\stm32f1xx_hal_dma.o"
+"project8\stm32f1xx_hal_cortex.o"
+"project8\stm32f1xx_hal_pwr.o"
+"project8\stm32f1xx_hal_flash.o"
+"project8\stm32f1xx_hal_flash_ex.o"
+"project8\stm32f1xx_hal_exti.o"
+"project8\stm32f1xx_hal_tim.o"
+"project8\stm32f1xx_hal_tim_ex.o"
+"project8\stm32f1xx_hal_uart.o"
+"project8\system_stm32f1xx.o"
+--strict --scatter "PROJECT8\PROJECT8.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "PROJECT8.map" -o PROJECT8\PROJECT8.axf

@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"project6\startup_stm32f103xe.o"
+"project6\main.o"
+"project6\gpio.o"
+"project6\tim.o"
+"project6\usart.o"
+"project6\stm32f1xx_it.o"
+"project6\stm32f1xx_hal_msp.o"
+"project6\stm32f1xx_hal_gpio_ex.o"
+"project6\stm32f1xx_hal_tim.o"
+"project6\stm32f1xx_hal_tim_ex.o"
+"project6\stm32f1xx_hal.o"
+"project6\stm32f1xx_hal_rcc.o"
+"project6\stm32f1xx_hal_rcc_ex.o"
+"project6\stm32f1xx_hal_gpio.o"
+"project6\stm32f1xx_hal_dma.o"
+"project6\stm32f1xx_hal_cortex.o"
+"project6\stm32f1xx_hal_pwr.o"
+"project6\stm32f1xx_hal_flash.o"
+"project6\stm32f1xx_hal_flash_ex.o"
+"project6\stm32f1xx_hal_exti.o"
+"project6\stm32f1xx_hal_uart.o"
+"project6\system_stm32f1xx.o"
+--strict --scatter "PROJECT6\PROJECT6.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "PROJECT6.map" -o PROJECT6\PROJECT6.axf

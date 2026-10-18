@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"tim_servo\startup_stm32f103xe.o"
+"tim_servo\main.o"
+"tim_servo\stm32f1xx_it.o"
+"tim_servo\stm32f1xx_hal_msp.o"
+"tim_servo\stm32f1xx_hal_gpio_ex.o"
+"tim_servo\stm32f1xx_hal_tim.o"
+"tim_servo\stm32f1xx_hal_tim_ex.o"
+"tim_servo\stm32f1xx_hal.o"
+"tim_servo\stm32f1xx_hal_rcc.o"
+"tim_servo\stm32f1xx_hal_rcc_ex.o"
+"tim_servo\stm32f1xx_hal_gpio.o"
+"tim_servo\stm32f1xx_hal_dma.o"
+"tim_servo\stm32f1xx_hal_cortex.o"
+"tim_servo\stm32f1xx_hal_pwr.o"
+"tim_servo\stm32f1xx_hal_flash.o"
+"tim_servo\stm32f1xx_hal_flash_ex.o"
+"tim_servo\stm32f1xx_hal_exti.o"
+"tim_servo\system_stm32f1xx.o"
+--strict --scatter "TIM_Servo\TIM_Servo.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TIM_Servo.map" -o TIM_Servo\TIM_Servo.axf

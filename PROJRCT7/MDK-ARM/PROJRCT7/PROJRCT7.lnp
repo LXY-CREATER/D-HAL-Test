@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"projrct7\startup_stm32f103xe.o"
+"projrct7\main.o"
+"projrct7\gpio.o"
+"projrct7\tim.o"
+"projrct7\stm32f1xx_it.o"
+"projrct7\stm32f1xx_hal_msp.o"
+"projrct7\stm32f1xx_hal_gpio_ex.o"
+"projrct7\stm32f1xx_hal_tim.o"
+"projrct7\stm32f1xx_hal_tim_ex.o"
+"projrct7\stm32f1xx_hal.o"
+"projrct7\stm32f1xx_hal_rcc.o"
+"projrct7\stm32f1xx_hal_rcc_ex.o"
+"projrct7\stm32f1xx_hal_gpio.o"
+"projrct7\stm32f1xx_hal_dma.o"
+"projrct7\stm32f1xx_hal_cortex.o"
+"projrct7\stm32f1xx_hal_pwr.o"
+"projrct7\stm32f1xx_hal_flash.o"
+"projrct7\stm32f1xx_hal_flash_ex.o"
+"projrct7\stm32f1xx_hal_exti.o"
+"projrct7\system_stm32f1xx.o"
+--strict --scatter "PROJRCT7\PROJRCT7.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "PROJRCT7.map" -o PROJRCT7\PROJRCT7.axf

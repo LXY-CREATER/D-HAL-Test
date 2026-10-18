@@ -1,0 +1,82 @@
+Configuration	TIM_InputCapture
+STM32CubeMX 	6.9.2
+Date	03/20/2025
+MCU	STM32F103ZETx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	OSC_OUT
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM8	Internal Clock	TIM8_VS_ClockSourceINT	VP_TIM8_VS_ClockSourceINT
+TIM8	Input Capture direct mode	TIM8_CH3	PC8
+TIM8	Input Capture indirect mode	TIM8_VS_indirect_ch3	VP_TIM8_VS_indirect_ch3
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+23	OSC_IN	RCC_OSC_IN	
+24	OSC_OUT	RCC_OSC_OUT	
+66	PE13*	TIM1_CH3	
+98	PC8	TIM8_CH3	
+101	PA9	USART1_TX	
+102	PA10	USART1_RX	
+105	PA13	SYS_JTMS-SWDIO	
+109	PA14	SYS_JTCK-SWCLK	
+141	PE0	GPIO_Output	Trig
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	OSC_OUT
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM8	Internal Clock	TIM8_VS_ClockSourceINT	VP_TIM8_VS_ClockSourceINT
+TIM8	Input Capture direct mode	TIM8_CH3	PC8
+TIM8	Input Capture indirect mode	TIM8_VS_indirect_ch3	VP_TIM8_VS_indirect_ch3
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+23	OSC_IN	RCC_OSC_IN	
+24	OSC_OUT	RCC_OSC_OUT	
+66	PE13*	TIM1_CH3	
+98	PC8	TIM8_CH3	
+101	PA9	USART1_TX	
+102	PA10	USART1_RX	
+105	PA13	SYS_JTMS-SWDIO	
+109	PA14	SYS_JTCK-SWCLK	
+141	PE0	GPIO_Output	Trig
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : TIM_InputCapture
+Project Folder : D:\MAD PROJECT(study)\TIM_InputCapture
+Toolchain / IDE : MDK-ARM V5.32
+Firmware Package Name and Version : STM32Cube FW_F1 V1.8.6
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
