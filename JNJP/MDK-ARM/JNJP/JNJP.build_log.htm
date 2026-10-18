@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>�Vision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ��Vision V5.43.1.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: luoxinyan A, S, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.43.0.0
+Toolchain Path:  D:\keil-5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.43.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.24.0
+Dialog DLL:      TCM.DLL V1.56.6.0
+ 
+<h2>Project:</h2>
+D:\JNJP\MDK-ARM\JNJP.uvprojx
+Project File Date:  04/10/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 1 (build 106)', folder: 'D:\keil-5\ARM\ARMCC\Bin'
+Build target 'JNJP'
+Validate Run Time Environment: errors/warnings detected:
+'ARM::CMSIS:CORE@3.40.0': warning #515: Additional software components required
+ require Device:Startup: Select component from list
+    'Keil::Device:Startup'
+compiling sensor.c...
+..\Core\Src\sensor.c(148): warning:  #223-D: function "UsartConfig_SendString" declared implicitly
+      UsartConfig_SendString("{\"device\":\"JNJP001\",");
+..\Core\Src\sensor.c(151): warning:  #223-D: function "UsartConfig_SendNumber" declared implicitly
+      UsartConfig_SendNumber(Sensor_GetRawValue(0));
+..\Core\Src\sensor.c(6): warning:  #550-D: variable "adcConversionComplete" was set but never used
+  static uint8_t adcConversionComplete = 0;
+..\Core\Src\sensor.c: 3 warnings, 0 errors
+compiling vehicle_detect.c...
+compiling freertos.c...
+compiling usart_config.c...
+..\Core\Src\usart_config.c(113): warning:  #870-D: invalid multibyte character sequence
+          UsartConfig_SendString("\r\n压电陶瓷说明: 按压后看peak�?保持5秒自动衰�?\r\n");
+..\Core\Src\usart_config.c(113): warning:  #870-D: invalid multibyte character sequence
+          UsartConfig_SendString("\r\n压电陶瓷说明: 按压后看peak�?保持5秒自动衰�?\r\n");
+..\Core\Src\usart_config.c(114): warning:  #870-D: invalid multibyte character sequence
+          UsartConfig_SendString("小龙虾对�? 输入 UPLOAD 输出JSON格式数据\r\n");
+..\Core\Src\usart_config.c(61): warning:  #177-D: variable "token" was declared but never referenced
+      char *token;
+..\Core\Src\usart_config.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=23892 RO-data=1172 RW-data=204 ZI-data=13940  
+FromELF: creating hex file...
+"JNJP\JNJP.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS@4.2.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil::STM32F1xx_DFP@2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_JNJP
+  D:/keil-5/ARM/Pack/ARM/CMSIS/4.2.0/CMSIS/Include
+  D:/keil-5/ARM/Pack/Keil/STM32F1xx_DFP/2.2.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@3.40.0
+      Source file:   CMSIS/UserCodeTemplates/ARM/ITM_Retarget.c
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

@@ -1,0 +1,14 @@
+jnjp\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+jnjp\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+jnjp\croutine.o: D:\keil-5\ARM\ARMCC\Bin\..\include\stddef.h
+jnjp\croutine.o: D:\keil-5\ARM\ARMCC\Bin\..\include\stdint.h
+jnjp\croutine.o: ../Core/Inc/FreeRTOSConfig.h
+jnjp\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+jnjp\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+jnjp\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+jnjp\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+jnjp\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+jnjp\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+jnjp\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+jnjp\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h
+jnjp\croutine.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

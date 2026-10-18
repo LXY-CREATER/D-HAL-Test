@@ -1,0 +1,13 @@
+jnjp\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+jnjp\heap_4.o: D:\keil-5\ARM\ARMCC\Bin\..\include\stdlib.h
+jnjp\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+jnjp\heap_4.o: D:\keil-5\ARM\ARMCC\Bin\..\include\stddef.h
+jnjp\heap_4.o: D:\keil-5\ARM\ARMCC\Bin\..\include\stdint.h
+jnjp\heap_4.o: ../Core/Inc/FreeRTOSConfig.h
+jnjp\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+jnjp\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+jnjp\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+jnjp\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+jnjp\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+jnjp\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+jnjp\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
