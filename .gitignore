@@ -1,0 +1,8 @@
+# 忽略 Java 环境配置
+.idea/
+*.iml
+jdk/
+out/
+target/
+bin/
+*.class
